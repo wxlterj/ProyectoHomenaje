@@ -19,13 +19,17 @@ body {
 
 #img-div {
     box-sizing: content-box;
-    margin: 30px 16px;
+    margin: 0 auto;
     padding: 10px;
     background: white;
+    max-width: 600px;
 }
 
-#img-div > img {
+#image {
+    display: block;
+    margin: 0 auto;
     max-width: 100%;
+    height: auto;
 }
 
 #image-caption {
